@@ -1,0 +1,15 @@
+psycopg2
+passlib
+werkzeug==2.1.2
+babel
+lxml
+pytz
+PyPDF2
+reportlab
+pillow
+requests
+num2words
+xlrd
+xlsxwriter
+beautifulsoup4
+python-dateutil
