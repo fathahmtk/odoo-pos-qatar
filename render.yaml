@@ -1,0 +1,14 @@
+# render.yaml
+services:
+  - type: web
+    name: odoo-pos-qatar
+    runtime: docker
+    repo: https://github.com/fathahmtk/odoo-pos-qatar
+    plan: free
+    region: oregon
+    dockerContext: .
+    dockerfilePath: ./Dockerfile
+    autoDeployTrigger: commit
+    previews:
+      generation: automatic
+version: "1"
